@@ -1,8 +1,15 @@
 # ArduinoMidiDrums
-- Author: Evan Kale
+- Original Author: Evan Kale
 - Email: evankale91@gmail.com
 - Web: ISeeDeadPixel.com
 - Blog: evankale.blogspot.ca
+
+##My slight changes:
+
+- I changed the notes from being 70-75 to being defined General MIDI drum notes
+
+
+## Original readme follows:
 
 See a demo video here:
 https://youtu.be/vi-w_WqJjzQ

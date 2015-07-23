@@ -85,8 +85,15 @@ void setup()
     lastPeakTime[i] = 0;
     lastNoteTime[i] = 0;    
     slotMap[i] = START_SLOT + i;
-    noteMap[i] = START_NOTE + i;
+//    noteMap[i] = START_NOTE + i;
   }
+
+  noteMap[0] = 36; // Bass Drum 1
+  noteMap[1] = 47; // Mid Tom 1
+  noteMap[2] = 49; // Crash 1
+  noteMap[3] = 42; // HiHat Closed
+  noteMap[4] = 38; // Snare 1
+  noteMap[5] = 50; // Hi Tom 1
   
   thresholdMap[0] = KICK_THRESHOLD;
   thresholdMap[1] = RTOM_THRESHOLD;
